@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Hotel</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+
+        header {
+            background-color: #ffffff;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+        }
+        header img {
+            height: 200px;
+            width: 300px;
+        }
+        .moonicon {
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            right: 100px;
+            top: auto;
+        }
+
+        nav {
+            background-color: #ff7700;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #000000; /* Change color on hover */
+        }
+
+        section {
+            padding: 2em;
+            margin: 0 auto;
+            max-width: 800px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            border-radius: 8px;
+            margin-bottom: 2em;
+        }
+        #contact {
+            margin-bottom: 100px;
+        }
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #ff7700;
+            padding-bottom: 0.5em;
+        }
+
+        section p {
+            color: #555;
+        }
+
+        footer {
+            position: fixed;
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+            bottom: 0;
+            width: 100%;
+        }
+/* Responsive styles for smaller screens (phones) */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.5em;
+    }
+
+    nav {
+        display: flex;
+        padding: 0.5em;
+        flex-direction: row; /* Stack nav items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    nav a {
+        display: block; /* Make anchor tags full width */
+        margin: 0.5em 0; /* Add some vertical spacing between nav items */
+    }
+
+    section {
+        padding: 1em;
+    }
+
+    footer {
+        padding: 0.5em;
+    }
+
+
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="" >
+        <img src="images/shape copy.svg" alt="" class="moonicon" id="moonicon">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Awesome Hotel!</h2>
+        <p>Experience luxury and comfort during your stay.</p>
+    </section>
+
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <p>Discover our stylish and comfortable rooms.</p>
+        <!-- Add room details and images here -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about the Awesome Hotel and our commitment to excellence.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to make a reservation? Contact us!</p>
+        <!-- Add a contact form or contact details here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Qeroli Hotel. All rights reserved.</p>
+    </footer>
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
